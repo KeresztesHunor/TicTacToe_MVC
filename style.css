@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+#jatek-ter {
+    display: grid;
+    grid-template-columns: repeat(3, 64px);
+}
+
+.elem {
+    width: 64px;
+    height: 64px;
+}
